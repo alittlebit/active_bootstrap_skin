@@ -234,18 +234,13 @@
   &.without_sidebar {
     #main_content_wrapper {
       @extend .col-md-6;
-      width: auto;
-      min-width: 100%;
+      min-width: inherit;
     }
   }
 
   &.with_sidebar {
     #main_content_wrapper { @extend .col-md-9; }
     #sidebar { @extend .col-md-3; }
-  }
-
-  table {
-    width: auto;
   }
 }
 
