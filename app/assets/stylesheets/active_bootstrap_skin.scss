@@ -1,7 +1,7 @@
 @import 'bootstrap';
 
 /* set horizontal padding on all content containers */
-#title_bar, .flashes, .logged_out #content_wrapper, #footer {
+.flashes, .logged_out #content_wrapper, #footer {
   @include container-fixed;
 }
 
@@ -191,7 +191,6 @@
 
 #title_bar {
   @extend .clearfix;
-  margin-bottom: 10px;
 
   #titlebar_left {
     @extend .pull-left;
