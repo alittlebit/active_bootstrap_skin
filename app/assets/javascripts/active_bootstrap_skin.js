@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   // Dropdown menus
   $(window).resize(function(){
-    if ($(window).width() <= 768) {
+    if ($(window).width() <= 1045) {
       $('#tabs').addClass('collapse');
     } else {
       $('#tabs').removeClass('collapse');
